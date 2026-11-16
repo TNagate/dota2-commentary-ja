@@ -1,0 +1,18 @@
+name: 誤りの報告
+description: どの試合のどの文が、何と食い違っているか（分かれば正しい値と出どころ）
+title: "[誤り] "
+labels: ["誤り"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: ページ（試合の番号か URL）
+    validations:
+      required: false
+  - type: textarea
+    id: detail
+    attributes:
+      label: 内容
+      description: どの試合のどの文が、何と食い違っているか（分かれば正しい値と出どころ）
+    validations:
+      required: true

@@ -1,0 +1,18 @@
+name: 欲しい情報
+description: 解説に足してほしい情報や見方
+title: "[欲しい情報] "
+labels: ["欲しい情報"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: ページ（試合の番号か URL）
+    validations:
+      required: false
+  - type: textarea
+    id: detail
+    attributes:
+      label: 内容
+      description: 解説に足してほしい情報や見方
+    validations:
+      required: true
